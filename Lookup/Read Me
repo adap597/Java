@@ -1,0 +1,24 @@
+Exercise from Intro to Programming course at Thomas Edison
+
+Modify the “Lookup” program given in the textbook (program 4.4.1) to make a program “LookupMultipleNumber” 
+that prints out multiple values having the same key. 
+
+Notes:
+The user would specify the maximum number of values to be printed out for each key as a command line argument after the file name.
+
+Store all such multiple values in a queue. So each element of the symbol table would have a string as a key and a queue object as its value.
+
+Sample runs would be as follows (refer to input file amino.csv).
+>java LookupMultipleNumber amino.csv 2 3 0
+Tryptophan
+TGG
+Cysteine
+TGT TGC
+<CTRL-D>
+
+>java LookupMultipleNumber amino.csv 6 3 0
+Cysteine
+TGT TGC
+Leucine
+TTA TTG CTT CTC CTA CTG
+<CTRL-D>
