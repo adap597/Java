@@ -1,0 +1,13 @@
+Exercise from Intro to Programming course at Thomas Edison.
+Program computes the sum of natural numbers in a given range entered by the user. 
+
+The program has a static recursive method, “getSum” that takes two natural numbers as arguments and computes the sum recursively. 
+The sum is returned by the method. This static method would be called by the main method.
+
+Sample runs would be as follows.
+
+>java NumbersRangeSum 6 10
+The sum of natural numbers in range [6,10] is 40.
+
+>java NumbersRangeSum 13 20
+The sum of natural numbers in range [13, 20] is 132.
