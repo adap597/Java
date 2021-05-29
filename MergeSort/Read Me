@@ -1,0 +1,12 @@
+Exercise from Intro to Programming course at Thomas Edison
+
+The user would give an unsorted list of words as command-line arguments along with the starting and 
+ending index of the subarray that should be sorted. The program should print out a list where the strings between the given indexes are sorted alphabetically.
+
+Sample runs would be as follows.
+
+>java MergeSort 2 4 toy apply sand bay cat dog fish
+toy apply bay cat sand dog fish
+
+>java MergeSort 0 3 was had him and you his the but
+and had him was you his the but
