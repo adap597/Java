@@ -1,0 +1,26 @@
+Exercise from Intro to Programming at Thomas Edison.
+Modify the “LinkedStackOfStrings.java” program given in the textbook (program 4.3.2) 
+by adding a method “find()” that takes a string as an argument. 
+It should return true if the string argument is in the linked stack and false otherwise. 
+
+The main method should also be modified so that all the strings (other than the search string) 
+inputted by the user are stored on the stack before calling the find() method.
+
+Sample runs would be as follows.
+
+>java LinkedStackOfStrings hello
+this
+is a
+test run
+for the
+hello program
+<CTRL-D>
+hello exists in the linked stack
+
+>java LinkedStackOfStrings winter
+hello world
+is the first program
+of any programming
+language
+<CTRL-D>
+winter does not exist in the linked stack
