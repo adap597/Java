@@ -1,0 +1,17 @@
+Exercise from Intro to Programming at Thomas Edison.
+This program reads lines from standard input, uses printf() to print a table with a column of the names, integers, and the average of the three integers.
+The user specifies the number of names as a command-line argument and then types the names along with three integers for each name. 
+
+A sample run would be as follows.
+
+> java Average 4
+Joe 3 5 2
+Tim 4 1 5
+Jane 6 3 2
+Jack 8 3 5
+<Ctrl-D> 
+
+Joe 3 5 2 3.33
+Tim 4 1 5 3.33
+Jane 6 3 2 3.67
+Jack 8 3 5 5.33
