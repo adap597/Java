@@ -1,0 +1,30 @@
+Exercise from Intro to Programming course at Thomas Edison.
+
+Takes an integer command line argument “n” and prints the nth string from the first string found on standard input. 
+
+Please note that you would need to use a queue to implement it for full credit. 
+You should add the strings inputted by the user to a queue using the enqueue method. 
+Then you should remove and return "n" strings from the queue using the dequeue method. 
+The nth string that is returned by the dequeue method should then be printed out.
+
+Sample runs would be as follows.
+
+>java LineNum 2
+apple
+save
+that
+is
+too
+me
+<CTRL-D>
+2 from the first is save
+
+>java LineNum 3
+this
+is
+not
+a
+shorter
+version
+<CTRL-D>
+3 from the first is not
