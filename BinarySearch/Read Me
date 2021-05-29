@@ -1,0 +1,17 @@
+Exercise from Intro to Programming Course at Thomas Edison
+
+If the search key is in the array, it returns the largest index i for which a[i] is equal to key, but, otherwise, returns –i where 
+i is the largest index such that a[i] is less than key. It should also be modified to deal with integer arrays rather than string arrays. 
+
+Note: The program should take two command-line arguments, (1) an input file that contains a sorted integer array; and (2) an integer to search for in that array.
+
+Sample runs would be as follows.
+
+>more input.txt
+2 3 4 5 6 6 6 7 8 9 11
+
+>java BinarySearch input.txt 10
+-9
+
+>java BinarySearch input.txt 6
+6
