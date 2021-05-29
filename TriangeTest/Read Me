@@ -1,0 +1,14 @@
+Exercise from Intro to Programming course at Thomas Edison.
+The program tests if three integers entered by the user in the command line could be the sides of a triangle.
+If none of the input values is greater than or equal to the sum of the other two, then the program should output “True”; 
+otherwise it should output “False.” 
+
+The program should have a static method, “IsTriangular,” that performs the test.
+This static method would be called by the main method.
+Sample runs would be as follows.
+
+>java TriangularTest 5 3 6
+True
+
+>java TriangularTest 5 12 6
+False
