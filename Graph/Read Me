@@ -1,0 +1,30 @@
+Exercise from Intro to Programming course at Thomas Edison.
+
+Modify the “Graph” program given in the textbook (program 4.5.1) to create a program, “SubGraph”. 
+It would take a filename and vertices as input arguments on the command line. 
+It would create and print out a graph using the data specified in the file (as is done by the "Graph" program). 
+And then it would also print out the subgraph of the graph formed by the vertices that are given on the command line. 
+Note: The induced subgraph is the graph comprised of the specified vertices together with all edges from the original graph that connect any two of them.
+
+The input and output of the program should be similar to, or as specified by, the following sample run.
+>more graph.txt
+A B
+A C
+C G
+A G
+H A
+B C
+B H
+
+>java SubGraph graph.txt A C G
+The graph is
+A: B C G H
+B: A C H
+C: A B G
+G: A C
+H: A B
+The subgraph is
+A: C G
+C: A G
+G: A C
+
